@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PersonalController;
+use App\Http\Controllers\HomeAdminController;
+use App\Http\Controllers\DepartamentoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('Admin1Home', HomeAdminController::class);
+Route::resource('Admin1', PersonalController::class);
+Route::resource('Departamento', DepartamentoController::class);
+

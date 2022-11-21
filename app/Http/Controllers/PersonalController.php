@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Models\Personal;
 use Illuminate\Http\Request;
+use DB;
 
 class PersonalController extends Controller
 {
+
+
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +17,8 @@ class PersonalController extends Controller
      */
     public function index()
     {
-        //
+        $listar = DB::Select('EXEC dbo.SP_LIS_PERSONAL');
+        return view('Admin1.Personal.index',compact('listar'));
     }
 
     /**
