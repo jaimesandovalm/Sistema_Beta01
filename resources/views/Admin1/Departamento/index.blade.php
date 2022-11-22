@@ -12,15 +12,12 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="grid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="grid-header">Departamento</p>
-                        <button class=" btn btn-success has-icon btn-rounded" data-toggle="modal" data-target="#NuevoSetPrueba">
-                            <i class="mdi mdi-account-plus-outline">
-                            </i> Nuevo
-                        </button>
-                    </div>
-                </div>
+                <a class=" btn btn-success has-icon btn-rounded" href="{{ route('Departamento.create') }}">
+                    <i class="mdi mdi-account-plus-outline">
+                    </i> Nuevo
+                </a>
+
+
                 <div class="item-wrapper">
                     <div class="table-responsive">
                         <table class="table">
@@ -49,6 +46,5 @@
             </div>
         </div>
     </div>
-
 </div>
 @endsection

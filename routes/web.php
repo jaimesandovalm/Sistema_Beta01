@@ -22,6 +22,6 @@ Route::get('/', function () {
 
 
 Route::resource('Admin1Home', HomeAdminController::class);
-Route::resource('Admin1', PersonalController::class);
+Route::resource('Personal', PersonalController::class);
 Route::resource('Departamento', DepartamentoController::class);
 

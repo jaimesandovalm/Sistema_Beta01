@@ -17,7 +17,7 @@
             </a>
             <ul class="collapse navigation-submenu" id="sample-pages">
                 <li>
-                    <a href="{{ route('Admin1.index') }}">Personal</a>
+                    <a href="{{ route('Personal.index') }}">Personal</a>
                 </li>
                 <li>
                     <a href="{{ route('Departamento.index') }}">Departamento</a>
@@ -40,31 +40,6 @@
                     <a href="pages/ui-components/typography.html">Typography</a>
                 </li>
             </ul>
-        </li>
-        <li>
-            <a href="pages/forms/form-elements.html">
-                <span class="link-title">Forms</span>
-                <i class="mdi mdi-clipboard-outline link-icon"></i>
-            </a>
-        </li>
-        <li>
-            <a href="pages/charts/chartjs.html">
-                <span class="link-title">Charts</span>
-                <i class="mdi mdi-chart-donut link-icon"></i>
-            </a>
-        </li>
-        <li>
-            <a href="pages/icons/material-icons.html">
-                <span class="link-title">Icons</span>
-                <i class="mdi mdi-flower-tulip-outline link-icon"></i>
-            </a>
-        </li>
-        <li class="nav-category-divider">DOCS</li>
-        <li>
-            <a href="../docs/docs.html">
-                <span class="link-title">Documentation</span>
-                <i class="mdi mdi-asterisk link-icon"></i>
-            </a>
         </li>
     </ul>
 </div>

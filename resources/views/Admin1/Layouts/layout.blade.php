@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="assets_Admin1/vendors/iconfonts/mdi/css/materialdesignicons.css">
+    <link rel="stylesheet" href="{{ asset('assets_Admin1/vendors/iconfonts/mdi/css/materialdesignicons.css') }}">
     <!-- endinject -->
     <!-- vendor css for this page -->
     <!-- End vendor css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="assets_Admin1/css/shared/style.css">
+    <link rel="stylesheet" href="{{ asset('assets_Admin1/css/shared/style.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('assets_Admin1/css/shared/style.css') }}">
+
     <!-- endinject -->
     <!-- Layout style -->
-    <link rel="stylesheet" href="assets_Admin1/css/demo_1/style.css">
+    <link rel="stylesheet" href="{{ asset('assets_Admin1/css/demo_1/style.css') }}">
     <!-- Layout style -->
-    <link rel="shortcut icon" href="assets_Admin1/images/favicon.ico" />
+    <link rel="shortcut icon" href="{{ asset('assets_Admin1/images/favicon.ico') }}" />
 </head>
 
 <body class="header-fixed">
@@ -39,16 +42,16 @@
     <!--page body ends -->
     <!-- SCRIPT LOADING START FORM HERE /////////////-->
     <!-- plugins:js -->
-    <script src="assets_Admin1/vendors/js/core.js"></script>
+    <script src="{{ asset('assets_Admin1/vendors/js/core.js') }}"></script>
     <!-- endinject -->
     <!-- Vendor Js For This Page Ends-->
-    <script src="assets_Admin1/vendors/apexcharts/apexcharts.min.js"></script>
-    <script src="assets_Admin1/vendors/chartjs/Chart.min.js"></script>
-    <script src="assets_Admin1/js/charts/chartjs.addon.js"></script>
+    <script src="{{ asset('assets_Admin1/vendors/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ asset('assets_Admin1/vendors/chartjs/Chart.min.js') }}"></script>
+    <script src="{{ asset('assets_Admin1/js/charts/chartjs.addon.js') }}"></script>
     <!-- Vendor Js For This Page Ends-->
     <!-- build:js -->
-    <script src="assets_Admin1/js/template.js"></script>
-    <script src="assets_Admin1/js/dashboard.js"></script>
+    <script src="{{ asset('assets_Admin1/js/template.js') }}"></script>
+    <script src="{{ asset('assets_Admin1/js/dashboard.js') }}"></script>
     <!-- endbuild -->
 </body>
 

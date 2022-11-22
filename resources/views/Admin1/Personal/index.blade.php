@@ -15,10 +15,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <p class="grid-header">Personal</p>
-                        <button class=" btn btn-success has-icon btn-rounded" data-toggle="modal" data-target="#NuevoSetPrueba">
+                        <a class=" btn btn-success has-icon btn-rounded" href="{{ route('Personal.create') }}">
                             <i class="mdi mdi-account-plus-outline">
                             </i> Nuevo
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div class="item-wrapper">
